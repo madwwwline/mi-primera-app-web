@@ -19,3 +19,8 @@
     <script src="script.js"></script>
 </body>
 </html>
+<div class="temas" style="margin-bottom: 20px;">
+    <button onclick="cambiarTema('verano')" class="tema-btn">🌞 Verano</button>
+    <button onclick="cambiarTema('noche')" class="tema-btn">🌙 Noche</button>
+    <button onclick="cambiarTema('bosque')" class="tema-btn">🌲 Bosque</button>
+</div>
