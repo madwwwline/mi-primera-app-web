@@ -1,6 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    /* NUEVO GRADIENTE - MODO VERANO */
+    background: linear-gradient(135deg, #FF9A9E 0%, #FAD0C4 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,7 +20,8 @@ body {
 }
 
 h1 {
-    color: #333;
+    /* NUEVO COLOR PARA TÍTULO */
+    color: #556270;
     margin-bottom: 2rem;
 }
 
@@ -36,7 +38,8 @@ button {
     padding: 15px 20px;
     border: none;
     border-radius: 50px;
-    background: #6a11cb;
+    /* NUEVO COLOR PARA BOTONES */
+    background: #4ECDC4;
     color: white;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -44,17 +47,21 @@ button {
 
 button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15
+/* ESTILOS PARA BOTONES DE TEMA */
+.temas {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px !important;
 }
 
-#resultados {
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 2px dashed #eee;
+.tema-btn {
+    font-size: 0.9rem !important;
+    padding: 8px 15px !important;
+    background: #556270 !important;
 }
 
-#resultados p {
-    font-size: 1.1rem;
-    margin: 10px 0;
-    color: #555;
+.tema-btn:hover {
+    background: #FF6B6B !important;
 }
