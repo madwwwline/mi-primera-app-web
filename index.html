@@ -1,3 +1,21 @@
-index.html
-style.css
-script.js
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Contador de Estados de Ánimo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¿Cómo te sientes hoy?</h1>
+        <div class="buttons">
+            <button onclick="contar('feliz')">😊 Feliz</button>
+            <button onclick="contar('bien')">👍 Bien</button>
+            <button onclick="contar('regular')">😐 Regular</button>
+            <button onclick="contar('triste')">😢 Triste</button>
+            <button onclick="contar('enojado')">😡 Enojado</button>
+        </div>
+        <div id="resultados"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
