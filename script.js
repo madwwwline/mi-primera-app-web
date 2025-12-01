@@ -34,3 +34,15 @@ function mostrarResultados() {
 
 // Mostrar resultados al cargar la página
 mostrarResultados();
+// FUNCIÓN PARA CAMBIAR TEMAS
+function cambiarTema(tema) {
+    const body = document.body;
+    
+    if (tema === 'verano') {
+        body.style.background = "linear-gradient(135deg, #FF9A9E 0%, #FAD0C4 100%)";
+    } else if (tema === 'noche') {
+        body.style.background = "linear-gradient(135deg, #2C3E50 0%, #4CA1AF 100%)";
+    } else if (tema === 'bosque') {
+        body.style.background = "linear-gradient(135deg, #56AB2F 0%, #A8E6CF 100%)";
+    }
+}
